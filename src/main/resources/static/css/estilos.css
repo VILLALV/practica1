@@ -1,0 +1,64 @@
+#encabezado {
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    background-color: gray;
+}
+#menu{
+    top: 10%;
+    left: 0;
+    height: 5%;
+    width: 100%;
+    position: fixed;
+    text-align: right;
+    background-color: coral;
+}
+#barraLateral{
+    top: 10%;
+    left: 0;
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    text-align: left;
+    background-color: grey;    
+}
+#contenido{
+    top: 10%;
+    left: 20%;
+    height: 75%;
+    width: 85%; 
+    position:absolute;
+    text-align: left;
+    background-color: white;    
+}
+#piePagina{
+    bottom: 0%;
+    left: 20%;
+    height: 10%;
+    width: 80%;
+    position: fixed;
+    text-align: right;
+    background-color: white;    
+}
+.parrafoBlanco{ 
+    color: white;
+}
+.parrafoRojo{
+    color: red;
+}
+.parrafoCentrado{
+    text-align: center;
+}
+
+div.parrafoBlanco p{
+    font-size:25px;
+}
+body{
+    background-color: gray;
+}
+:visited{
+    font-size: 30px;
+}
